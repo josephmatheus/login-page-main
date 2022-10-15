@@ -1,12 +1,10 @@
 # Login Page
-## Landing Page 
+
 
 Desafio realizado através do [DevMentor](https://www.devmentor.com.br).
 O desafio era construir esta página de login e fazê-la parecer o mais próximo possível do design, que inclui a responsividade.
 
-<br><br>
 Você pode visualizar o projeto [aqui](https://josephmatheus.github.io/login-page-main). 🚀
-
 
 ---
 ## Screenshot
