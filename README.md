@@ -4,7 +4,9 @@
 Desafio realizado através do [DevMentor](https://www.devmentor.com.br).
 O desafio era construir esta página de login e fazê-la parecer o mais próximo possível do design, que inclui a responsividade.
 
-Você pode visualizar o projeto [aqui](https://josephmatheus.github.io/login-page-main). 🚀
+Desenvolvido com conceito Mobile First.
+
+Você pode visualizar o projeto <b>[aqui](https://josephmatheus.github.io/login-page-main)</b>. 🚀
 
 ---
 ## Screenshot
