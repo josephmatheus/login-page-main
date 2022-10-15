@@ -25,7 +25,7 @@ Você pode visualizar o projeto <b>[aqui](https://josephmatheus.github.io/login-
 ## Autor
 
 <a href="https://www.github.com/josephmatheus">
-    <img src="https://avatars.githubusercontent.com/u/89085971?v=4" alt="Profile picture" width="100px" style="border-radius: 5%;">
+    <img src="https://avatars.githubusercontent.com/u/89085971?v=4" alt="Profile picture" width="100px" style="border-radius: 25%;">
     <p style="font-size: 16px;">Joseph Matheus</p>
 </a>
 <p align="left" style="display:flex; gap:10px;">
