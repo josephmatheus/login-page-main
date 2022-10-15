@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 342px;
+  height: 355px;
+  background-color: #FFFFFF;
+  padding: 18px;
+  border-radius: 6px;
+}
+.main .form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main .form .login {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 17px;
+}
+.main .form .login legend {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.main .form .login input {
+  background-color: #E5E5E5;
+  height: 35px;
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+.main .form .login button {
+  height: 35px;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: #121212;
+  color: #FFFFFF;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main .form .login button:hover {
+  opacity: 0.8;
+}
+.main .form .social-login {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: none;
+}
+.main .form .social-login legend {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #464646;
+}
+.main .form .social-login button {
+  background-color: #FFFFFF;
+  border: none;
+}
+.main .form .social-login button :hover {
+  opacity: 0.8;
+}
+.main .form .social-login button img {
+  width: 40px;
+}
+
+@media (min-width: 744px) {
+  .main {
+    width: 350px;
+    height: 365px;
+  }
+}
+@media (min-width: 1115px) {
+  .main {
+    width: 475px;
+    height: 500px;
+    padding: 24px;
+    border-radius: 8px;
+  }
+  .main .form .login {
+    gap: 24px;
+  }
+  .main .form .login legend {
+    font-size: 3.2rem;
+    margin-bottom: 24px;
+  }
+  .main .form .login input {
+    border-radius: 4px;
+    height: 50px;
+    font-size: 1.6rem;
+  }
+  .main .form .login button {
+    height: 50px;
+    font-size: 1.6rem;
+    border-radius: 4px;
+  }
+  .main .form .social-login legend {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  .main .form .social-login button img {
+    width: 60px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

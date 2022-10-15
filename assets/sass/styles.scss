@@ -1,0 +1,90 @@
+@import "variables.scss";
+@import "reset.scss";
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 342px;
+  height: 355px;
+  background-color: $white;
+  padding: 18px;
+  border-radius: 6px;
+
+  .form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .login {
+      display: flex;
+      flex-direction: column;
+      border: none;
+      gap: 17px;
+
+      legend {
+        font-size: 2.3rem;
+        font-weight: 700;
+        margin-bottom: 17px
+      }
+
+      input {
+        background-color: $lightGray;
+        height: 35px;
+        width: 100%;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+      }
+
+      button {
+        height: 35px;
+        width: 100%;
+        font-size: 1.2rem;
+        background-color: $black;
+        color: $white;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      
+      button:hover{
+        opacity: .8;
+      }
+    }
+
+    .social-login {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border: none;
+
+      legend {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 10px;
+        color: $gray;
+      }
+
+      button {
+        background-color: $white;
+        border: none;
+        :hover {
+          opacity: .8;
+        }
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+}
+
+@import "responsive.scss";
